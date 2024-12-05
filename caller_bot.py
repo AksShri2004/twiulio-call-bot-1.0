@@ -136,8 +136,8 @@ def run_scheduler(twilio_numbers, target_number):
     end_time = start_time + timedelta(hours=10)  # End time after 10 hours
 
     # Hardcoded Twilio credentials
-    account_sid = 'AC5f2c8d0687ad5d0a19e826f9bc63475b'  # Your Twilio Account SID
-    auth_token = '6c7182012299e55ed5bc7d6a6bfec45b'  # Your Twilio Auth Token
+    account_sid =  # Your Twilio Account SID
+    auth_token =   # Your Twilio Auth Token
     client = Client(account_sid, auth_token)
 
     # Loop over each of the 10 hours
